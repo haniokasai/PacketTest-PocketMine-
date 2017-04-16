@@ -1,0 +1,9 @@
+name: threadtest
+main: haniokasai\threadtest
+version: 2.0.0
+api: [1.4.0]
+load: STARTUP
+author: haniokasai
+authors: [haniokasai]
+description: packettest
+website: https://github.com/haniokasai
