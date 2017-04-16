@@ -24,8 +24,8 @@ class threadtest extends PluginBase implements Listener{
         $pk->enabled= false;
         $player->dataPacket($pk);
 
-        $pk2 = new enablepk();
-        $pk2->en = true;
+        $pk2 = new enablepk();//DataPacketの雛形を呼び出す
+        $pk2->en = true;//変数の内容を入力
         $player->dataPacket($pk);
     }
 
